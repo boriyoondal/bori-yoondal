@@ -1,47 +1,7 @@
-import java.util.Scanner;
-
-public class 과일고르기 {
-
-	public static void main(String[] args) {
-
-		Scanner sc = new Scanner(System.in);
-		String[] fruits = { "자몽", "망고", "바나나", "멜론" };
-		
-		System.out.println("찾고 싶은 과일 : ");
-		String fruit = sc.next();
-
-			if (fruit.equals(fruits[0])) {
-				System.out.println("자몽의 위치는 1번에 있습니다.");
-			}
-			else if (fruits.equals(fruits[1])) {
-				System.out.println("망고의 위치는 2번에 있습니다.");
-			}
-			else if (fruit.equals(fruits[2])) {
-				System.out.println("바나나의 위치는 3번에 있습니다.");
-			} 
-			else if(fruit.equals(fruits[3]))
-				System.out.println("멜론의 위치는 4번에 있습니다.");
-
-	}
-}
-되게 단순하다.
-
-사실 단순 출력문으로만 이뤄졌고, 반복이 너무 많아서 코드 짜면서도 이건 좀 아니다 싶었다
-
-결과를 내야했기 때문에 이렇게 썼었는데
-
-​
-
-if문 활용해서 배열 fruits의 인덱스 번호를 저장하고, 입력받은 문자열이 인덱스에 저장된 번호와 
-
-배열의 칸에 맞는 결과가 비교되어 일치 결과가 도출 될 때까지 반복되는 문장으로 만들었어야 했다.
-
-그리고 만약, 배열에 없는 과일이 입력됐을 때의 반환값?을 정했어야 했는데 그것 마저 없음.
-
 
 import java.util.Scanner;
 
-public class 쪽지시험_06 {
+public class Fruits {
 
 	public static void main(String[] args) {
 		// 원하는 과일이 몇 번째에 들어있는 지 출력하는 프로그램
