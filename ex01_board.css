@@ -1,0 +1,28 @@
+table{
+    width : 400px;
+    text-align : left;
+}
+
+tr{
+    height: 50px;
+    background-color: gray;
+}
+
+.personal{
+    height: 35px;
+    background-color: whitesmoke;
+}
+
+tr>td{
+    text-align : right;
+}
+
+tr>td+td{
+    text-align: left;
+}
+
+.central{
+   text-align : center;
+   margin-left :150px;
+   position :absolute;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="ex01_board.css">
+<body>
+    <form action="#">
+        <table>
+            <tr>
+                <th colspan="2">Step1 : 아이디/비번 입력</th>
+            </tr>
+
+            <tr class="personal">
+                <td>아이디:</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr class="personal">
+                <td>비밀번호:</td>
+                <td><input type="password"></td>
+            </tr>
+
+            <tr class="personal">
+                <td>비밀번호 확인:</td>
+                <td><input type="password"></td>
+            </tr>
+
+        </table>
+        <table>
+            <tr>
+                <th colspan="2">Step2 : 개인정보</th>
+            </tr>
+
+            <tr class="personal">
+                <td>성별:</td>
+                <td>남 <input type="radio" name="Gender">
+                    여 <input type="radio" name="Gender">
+                </td>
+
+            </tr>
+
+            <tr class="personal">
+                <td> 혈액형: </td>
+                <td>
+                    <select>
+                        <option>A형</option>
+                        <option> B형 </option>
+                        <option> AB형</option>
+                        <option> O형</option>
+                    </select>
+                </td>
+            </tr>
+            <tr class="personal">
+                <td> 생일: </td>
+                <td><input type="date"></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th colspan="2"> Step.3 : 선호도 </th>
+            </tr>
+            <tr class="personal">
+                <td> 취미 :</td>
+                <td>축구<input type="checkbox"> 야구<input type="checkbox"> 농구<input type="checkbox">
+                </td>
+            </tr>
+            <tr class="personal">
+                <td>좋아하는 색깔:</td>
+                <td><input type="color"></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th colspan="2">Step.4 : 적고싶은 말</th>
+            </tr>
+            <tr class="personal">
+                <td colspan="2">
+                    <textarea cols="60" rows="5"></textarea>
+                </td>
+            </tr>
+        </table>
+        <tr>
+            <td>
+                <div class = "central">
+                <input type="submit">
+                <input type="reset">
+                </div>
+            </td>
+        </tr>
+
+    </form>
+</body>
+
+</html>
