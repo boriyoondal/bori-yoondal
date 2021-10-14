@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<style>
+tr {
+	height: 40px;
+}
+</style>
+
+<meta charset="EUC-KR">
+
+<title>Insert title here</title>
+
+</head>
+
+<body>
+
+	<form action="ex06" method="post">
+
+		<fieldset>
+
+			<legend>Join Page</legend>
+
+			<table align="center">
+
+				<tr>
+
+					<td><label for="id">ID</label></td>
+
+					<td><input type="text" id="id" name="id"></td>
+
+				</tr>
+				
+				<tr>
+
+					<td><label for="pw">PW</label></td>
+
+					<td><input type="password" id="pw" name="pw"></td>
+
+				</tr>
+
+				<tr>
+
+					<td><label for="name">NAME</label></td>
+
+					<td><input type="text" id="name" name="name"></td>
+
+				</tr>
+
+				<tr>
+
+					<td><label for="email">EMAIL</label></td>
+
+					<td><input type="email" id="email" name="email"
+						required="required"></td>
+
+				</tr>
+
+				<tr>
+
+					<td><label for="tel">TEL</label></td>
+
+					<td><input type="tel" id="tel" name="tel" required="required"
+						pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" title="###-####-#### 형식으로 입력"></td>
+
+				</tr>
+
+				<tr>
+
+					<td><label for="gender">GENDER&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label></td>
+
+					<td>MAN<input type="radio" name="gender" id="gender"
+						value="남자">WOMEN<input type="radio" name="gender"
+						id="gender" value="여자"></td>
+
+				</tr>
+
+				<tr>
+
+					<td><label for="hobby">HOBBY</label></td>
+
+					<td>SPORT<input type="checkbox" name="hobby" id="hobby"
+						value="운동">STUDY<input type="checkbox" name="hobby"
+						id="hobby" value="공부">EATING<input type="checkbox"
+						name="hobby" id="hobby" value="먹기"></td>
+
+				</tr>
+
+				<tr>
+
+					<td><label for="birth">BIRTHDAY</label></td>
+
+					<td><input type="date" name="birth" id="birth"></td>
+
+				</tr>
+
+				<tr>
+
+					<td><label for="color">COLOR</label></td>
+
+					<td><input type="color" name="color" id="color"></td>
+
+				</tr>
+
+				<tr>
+
+					<td><label for="country">COUNTRY</label></td>
+
+					<td><select id="country" name="country">
+
+							<option>choice..</option>
+
+							<option>KOREA</option>
+
+							<option>USA</option>
+
+					</select></td>
+
+				</tr>
+
+				<tr>
+
+					<td><label for="talk">TALK</label></td>
+
+					<td><textarea id="talk" name="talk" rows="10" cols="30"></textarea>
+
+					</td>
+
+				</tr>
+
+
+
+				<tr>
+
+					<td><input type="submit" value="SEND"></td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+</body>
+</html>

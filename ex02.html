@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+   <!-- HTML에서 서버로 값을 보내기위한 3가지 조건 -->
+   <!-- 1.form? 태그에 ection속성 : 서버주소지정-->
+   <form action="ex02" method="get">
+   <!-- get 방식이 디폴트값이기 때문에 생략가능 -->
+   <!-- 2.input태그에 name속성 : 입력받은 값에 이름표 부착 -->
+   ID <input number = "text" name="id">
+   <br>
+   PW <input number = "text" name = "pw">
+   <br>
+   <!-- 3.input태그에 submit 속성값 : 서버로 값을 보내기 위한 버튼 -->
+   <input type = "submit" value = "전송">
+   
+   <script>
+      function Test() {
+         alert("함수호출!");
+      }//자바 => 메소드    \   자바스크립트 =>함수
+   
+   
+   </script>
+   
+   <input type ="button" value = "버튼" onclick = "Test()">
+   <!-- 자바스크립트에 이벤트를 호출할 때 -->
+   <input type = "reset" value = "리셋">
+   
+   
+   </form>
+</body>
+</html>
