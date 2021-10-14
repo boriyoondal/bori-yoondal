@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class ·Î¶ÇÁßº¹x {
+public class .LOTTO {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -18,7 +18,7 @@ public class ·Î¶ÇÁßº¹x {
 			}
 		}
 		for(int i=0; i<lotto.length; i++) {
-			System.out.println("Çà¿îÀÇ¼ýÀÚ  : "+lotto[i]);
+			System.out.println("Ã‡Ã Â¿Ã®Ã€Ã‡Â¼Ã½Ã€Ãš  : "+lotto[i]);
 		}
 	
 	
